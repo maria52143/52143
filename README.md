@@ -1,6 +1,6 @@
-# Analizador de Lenguaje DSL con ANTLR4 y JavaScript:
+# Analizador con ANTLR4 y JavaScript:
 
-Este proyecto implementa un **analizador léxico y sintáctico** utilizando **ANTLR4** y **JavaScript**, basado en una gramática en notación EBNF para un lenguaje específico (DSL). El analizador toma como entrada un archivo (`input.txt`) con código fuente escrito en ese lenguaje, y realiza una serie de tareas de análisis e interpretación.
+Este proyecto implementa un **analizador léxico y sintáctico** utilizando **ANTLR4** y **JavaScript**. El analizador toma como entrada un archivo (`input.txt`) con código fuente escrito en ese lenguaje, y realiza una serie de tareas de análisis e interpretación.
 
 ## Enunciado del Proyecto
 
