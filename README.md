@@ -1,4 +1,4 @@
-# Analizador de Lenguaje DSL con ANTLR4 y JavaScript
+# Analizador de Lenguaje DSL con ANTLR4 y JavaScript:
 
 Este proyecto implementa un **analizador léxico y sintáctico** utilizando **ANTLR4** y **JavaScript**, basado en una gramática en notación EBNF para un lenguaje específico (DSL). El analizador toma como entrada un archivo (`input.txt`) con código fuente escrito en ese lenguaje, y realiza una serie de tareas de análisis e interpretación.
 
@@ -30,16 +30,16 @@ const logError = function() {
 logError();
 ```
 
-## Funcionalidades implementadas
+## Funcionalidades:
 
 1. **Análisis léxico y sintáctico**: Detecta si la entrada cumple con la gramática definida. En caso de error, indica la línea y la causa.
 2. **Tabla de lexemas-tokens**: Genera una tabla que asocia cada lexema con su token reconocido.
 3. **Árbol de análisis sintáctico**: Construye el árbol sintáctico y lo muestra como representación de la estructura del código.
 4. **Interpretación**: Traduce las sentencias del DSL al lenguaje **JavaScript** y ejecuta el resultado como lo haría un intérprete básico.
 
-## Clonar y ejecutar en Visual Studio Code
+## Clonar y ejecutar en Visual Studio Code:
 
-### Clonar el repositorio
+### Clonar el repositorio:
 
 1. Abrí **Visual Studio Code**.
 2. Presioná `Ctrl + Shift + P` y escribí **Git: Clone**.
@@ -54,14 +54,14 @@ logError();
 
 (Es necesario tener **Git** y **Node.js** instalados previamente.)
 
-## 🛠️ Requisitos
+## Requisitos:
 
 - [Node.js](https://nodejs.org/)
 - [ANTLR4](https://www.antlr.org/)
 - Extensión de **ANTLR4 grammar syntax**
 - Editor: [Visual Studio Code](https://code.visualstudio.com/)
 
-## Cómo ejecutar el analizador
+## Cómo ejecutar el analizador:
 
 1. Instalá dependencias (si usás npm):
    ```bash
