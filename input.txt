@@ -1,0 +1,11 @@
+accion CopiaSegura {
+    moverArchivo a /documentos/backup_2025
+    usarEscaneoProfundo
+    notificar Copia completada exitosamente
+    retornar resultado
+}
+
+accion LogError {
+    notificar Error durante el procesamiento
+    retornar resultado
+}
