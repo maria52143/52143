@@ -1,0 +1,4 @@
+accion 'mover_datos' {
+  moverArchivo "a" C:/usuario/documentos
+  notificar "Movimiento realizado."
+}
