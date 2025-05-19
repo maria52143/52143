@@ -1,0 +1,6 @@
+accion 'copiar_archivo' {
+  moverArchivo "a" "C:/usuario/descargas"
+  usarEscaneoProfundo
+  notificar "Proceso completado exitosamente."
+  retornar "ok"
+}
