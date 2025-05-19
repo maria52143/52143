@@ -15,7 +15,7 @@ accion 'nombreAccion' {
 }
 ```
 
-### Ejemplo de Código DSL
+### Ejemplo de Código
 
 ```
 accion 'log_error' { notificar 'Error durante el procesamiento.' }
