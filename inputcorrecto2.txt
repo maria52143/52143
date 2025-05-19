@@ -1,0 +1,4 @@
+accion 'log_error' {
+  notificar "Se produjo un error inesperado."
+  retornar "error"
+}
